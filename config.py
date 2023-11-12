@@ -1,2 +1,2 @@
 JPG_NAME='original.jpg'
-POLICE_DB = 'police-db'
+BUCKET_NAME = 'police-db'

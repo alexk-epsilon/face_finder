@@ -54,8 +54,8 @@ def add_faces_to_collection(bucket_name, collection_id):
     print(f"Total:{cnt}")
 
 def main():
-    bucket = POLICE_DB
-    collection_id = POLICE_DB
+    bucket = BUCKET_NAME
+    collection_id = BUCKET_NAME
     add_faces_to_collection(bucket, collection_id)
 
 

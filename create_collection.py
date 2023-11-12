@@ -2,7 +2,7 @@
 # PDX-License-Identifier: MIT-0 (For details, see https://github.com/awsdocs/amazon-rekognition-developer-guide/blob/master/LICENSE-SAMPLECODE.)
 
 import boto3
-from config import POLICE_DB
+from config import BUCKET_NAME
 
 def create_collection(collection_id):
     session = boto3.Session(profile_name='default')
@@ -16,7 +16,7 @@ def create_collection(collection_id):
     print('Done...')
 
 def main():
-    collection_id = POLICE_DB
+    collection_id = BUCKET_NAME
     create_collection(collection_id)
 
 if __name__ == "__main__":
