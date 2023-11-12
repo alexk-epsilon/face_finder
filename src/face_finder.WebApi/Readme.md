@@ -58,12 +58,12 @@ If already installed check if new version is available.
 
 Execute unit tests
 ```
-    cd "OtYaBatka.WebApi/test/OtYaBatka.WebApi.Tests"
+    cd "face_finder.WebApi/test/face_finder.WebApi.Tests"
     dotnet test
 ```
 
 Deploy application
 ```
-    cd "OtYaBatka.WebApi/src/OtYaBatka.WebApi"
+    cd "face_finder.WebApi/src/face_finder.WebApi"
     dotnet lambda deploy-serverless
 ```

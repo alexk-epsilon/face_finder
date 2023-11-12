@@ -6,14 +6,14 @@ using Amazon.Lambda.APIGatewayEvents;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
-using OtYaBatka.Shared.Interfaces;
-using OtYaBatka.Shared.Services;
+using face_finder.Shared.Interfaces;
+using face_finder.Shared.Services;
 using Telegram.Bot.Types;
 
 // Assembly attribute to enable the Lambda function's JSON input to be converted into a .NET class.
 [assembly: LambdaSerializer(typeof(Amazon.Lambda.Serialization.SystemTextJson.DefaultLambdaJsonSerializer))]
 
-namespace OtYaBatka.TelegramBot
+namespace face_finder.TelegramBot
 {
     public class Functions
     {

@@ -6,13 +6,13 @@
         "dotnet lambda help",
         "All the command line options for the Lambda command can be specified in this file."
     ],
-    "profile"     : "otyabatka-admin-profile",
+    "profile"     : "face_finder-admin-profile",
     "region"      : "us-east-1",
     "configuration" : "Release",
     "framework"     : "netcoreapp3.1",
-    "s3-prefix"     : "OtYaBatka.WebApi/",
+    "s3-prefix"     : "face_finder.WebApi/",
     "template"      : "serverless.template",
     "template-parameters" : "",
-    "s3-bucket"           : "otyabatka",
-    "stack-name"          : "otyabatka-stack"
+    "s3-bucket"           : "face_finder",
+    "stack-name"          : "face_finder-stack"
 }

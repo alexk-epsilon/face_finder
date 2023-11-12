@@ -5,10 +5,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using OtYaBatka.Shared.Interfaces;
-using OtYaBatka.Shared.Services;
+using face_finder.Shared.Interfaces;
+using face_finder.Shared.Services;
 
-namespace OtYaBatka.WebApi
+namespace face_finder.WebApi
 {
     public class Startup
     {

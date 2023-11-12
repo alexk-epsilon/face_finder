@@ -12,6 +12,6 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OtYaBatka.Shared\OtYaBatka.Shared.csproj" />
+    <ProjectReference Include="..\face_finder.Shared\face_finder.Shared.csproj" />
   </ItemGroup>
 </Project>

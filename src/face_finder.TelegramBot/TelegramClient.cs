@@ -5,8 +5,8 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
-using OtYaBatka.Shared;
-using OtYaBatka.Shared.Interfaces;
+using face_finder.Shared;
+using face_finder.Shared.Interfaces;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Processing;
 using Telegram.Bot;
@@ -15,7 +15,7 @@ using Telegram.Bot.Types.Enums;
 using Telegram.Bot.Types.InputFiles;
 using Telegram.Bot.Types.ReplyMarkups;
 
-namespace OtYaBatka.TelegramBot
+namespace face_finder.TelegramBot
 {
     public class TelegramClient
     {

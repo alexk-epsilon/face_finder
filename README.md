@@ -1,7 +1,7 @@
-OtYaBatka Server Side
+face_finder Server Side
 ======================
 
-[OtYaBatka Server Side](https://github.com/pvv2000/OtYaBatka) is the server side project of the system for recognizing criminals of the Lukashenko regime.
+[face_finder Server Side](https://github.com/alexk-epsilon/face_finder) is the server side project of the system for recognizing criminals of the Lukashenko regime.
 
 ## Table of content
 
@@ -21,5 +21,5 @@ OtYaBatka Server Side
 ## About
 
 ### Related projects
-* [Mobile App](https://github.com/pvv2000/OtYaBatka-mobile)
-* [Database](https://github.com/pvv2000/OtYaBatka-database)
+* [Mobile App](https://github.com/alexk-epsilon/face_finder-mobile)
+* [Database](https://github.com/alexk-epsilon/face_finder-database)

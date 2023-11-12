@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "OtYaBatka.WebApi": {
+    "face_finder.WebApi": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

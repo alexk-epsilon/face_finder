@@ -1,4 +1,4 @@
-﻿namespace OtYaBatka.WebApi.Models
+﻿namespace face_finder.WebApi.Models
 {
     public class FacesBoxDto
     {

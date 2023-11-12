@@ -8,7 +8,7 @@
     "AspNetCoreFunction": {
       "Type": "AWS::Serverless::Function",
       "Properties": {
-        "Handler": "OtYaBatka.WebApi::OtYaBatka.WebApi.LambdaEntryPoint::FunctionHandlerAsync",
+        "Handler": "face_finder.WebApi::face_finder.WebApi.LambdaEntryPoint::FunctionHandlerAsync",
         "Runtime": "dotnetcore3.1",
         "CodeUri": "",
         "MemorySize": 256,

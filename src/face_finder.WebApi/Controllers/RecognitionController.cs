@@ -7,9 +7,9 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
-using OtYaBatka.WebApi.Models;
+using face_finder.WebApi.Models;
 
-namespace OtYaBatka.WebApi.Controllers
+namespace face_finder.WebApi.Controllers
 {
     [ApiController]
     [Route("api/v{version:apiVersion}/[controller]")]

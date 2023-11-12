@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
-using OtYaBatka.Shared;
-using OtYaBatka.Shared.Interfaces;
-using OtYaBatka.WebApi.Models;
+using face_finder.Shared;
+using face_finder.Shared.Interfaces;
+using face_finder.WebApi.Models;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Formats;
 using SixLabors.ImageSharp.Formats.Jpeg;
 using SixLabors.ImageSharp.Metadata.Profiles.Exif;
 
-namespace OtYaBatka.WebApi
+namespace face_finder.WebApi
 {
     public class RequestProcessor : IRequestProcessor
     {
-        private const string BucketName = "otyabatka-mobile-app-by";
+        private const string BucketName = "face_finder-mobile-app-by";
 
         private readonly IFileStorage _fileStorage;
         private readonly IRecognitionService _recognitionService;

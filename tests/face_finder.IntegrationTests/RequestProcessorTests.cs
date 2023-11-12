@@ -4,14 +4,14 @@ using System.Threading.Tasks;
 using Amazon.Runtime;
 using Microsoft.Extensions.Logging;
 using Moq;
-using OtYaBatka.Shared.Services;
-using OtYaBatka.WebApi;
-using OtYaBatka.WebApi.Models;
+using face_finder.Shared.Services;
+using face_finder.WebApi;
+using face_finder.WebApi.Models;
 using SixLabors.ImageSharp;
 using Xunit;
-using Extensions = OtYaBatka.Shared.Extensions;
+using Extensions = face_finder.Shared.Extensions;
 
-namespace OtYaBatka.IntegrationTests
+namespace face_finder.IntegrationTests
 {
     public class RequestProcessorTests
     {
@@ -24,7 +24,7 @@ namespace OtYaBatka.IntegrationTests
             var personService = new PersonService(Mock.Of<ILogger<PersonService>>(), fileStorage);
             var sut = new RequestProcessor(fileStorage, recognitionService, personService);
 
-            var image = Image.Load("E://OtYaBatka//test7.jpg", out var format);
+            var image = Image.Load("E://face_finder//test7.jpg", out var format);
             var base64Image = Extensions.ToBase64String(image, format);
             var request = new OriginalImage
             {

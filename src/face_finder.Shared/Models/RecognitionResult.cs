@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace OtYaBatka.Shared.Models
+namespace face_finder.Shared.Models
 {
     public class RecognitionResult
     {

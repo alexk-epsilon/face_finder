@@ -6,7 +6,7 @@
     "Post": {
       "Type": "AWS::Serverless::Function",
       "Properties": {
-        "Handler": "OtYaBatka.TelegramBot::OtYaBatka.TelegramBot.Functions::Post",
+        "Handler": "face_finder.TelegramBot::face_finder.TelegramBot.Functions::Post",
         "Runtime": "dotnet6",
         "CodeUri": "",
         "MemorySize": 256,

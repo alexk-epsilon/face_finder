@@ -31,12 +31,12 @@ If already installed check if new version is available.
 
 Execute unit tests
 ```
-    cd "OtYaBatka.TelegramBot/test/OtYaBatka.TelegramBot.Tests"
+    cd "face_finder.TelegramBot/test/face_finder.TelegramBot.Tests"
     dotnet test
 ```
 
 Deploy application
 ```
-    cd "OtYaBatka.TelegramBot/src/OtYaBatka.TelegramBot"
+    cd "face_finder.TelegramBot/src/face_finder.TelegramBot"
     dotnet lambda deploy-serverless
 ```

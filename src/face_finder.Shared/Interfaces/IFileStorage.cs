@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Amazon.S3.Model;
 
-namespace OtYaBatka.Shared.Interfaces
+namespace face_finder.Shared.Interfaces
 {
     public interface IFileStorage
     {

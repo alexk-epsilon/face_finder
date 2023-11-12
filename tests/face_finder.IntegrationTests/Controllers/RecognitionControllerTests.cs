@@ -6,20 +6,20 @@ using System.Net.Http.Json;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
-using OtYaBatka.Shared;
-using OtYaBatka.WebApi.Models;
+using face_finder.Shared;
+using face_finder.WebApi.Models;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Processing;
 using Xunit;
 
-namespace OtYaBatka.IntegrationTests.Controllers
+namespace face_finder.IntegrationTests.Controllers
 {
     public class RecognitionControllerTests
     {
         [Fact]
         public async Task RecognizeImageTest()
         {
-            var image = Image.Load("E://OtYaBatka//test7.jpg", out var format);
+            var image = Image.Load("E://face_finder//test7.jpg", out var format);
             var base64Image = Extensions.ToBase64String(image, format);
             var request = new RecognitionRequest
             {

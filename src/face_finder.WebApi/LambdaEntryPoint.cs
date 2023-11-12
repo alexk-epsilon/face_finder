@@ -4,13 +4,13 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace OtYaBatka.WebApi
+namespace face_finder.WebApi
 {
     /// <summary>
     /// This class extends from APIGatewayProxyFunction which contains the method FunctionHandlerAsync which is the 
     /// actual Lambda function entry point. The Lambda handler field should be set to
     /// 
-    /// OtYaBatka.WebApi::OtYaBatka.WebApi.LambdaEntryPoint::FunctionHandlerAsync
+    /// face_finder.WebApi::face_finder.WebApi.LambdaEntryPoint::FunctionHandlerAsync
     /// </summary>
     public class LambdaEntryPoint :
 

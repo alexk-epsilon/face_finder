@@ -5,15 +5,15 @@ using Amazon.Runtime;
 using Microsoft.Extensions.Logging;
 using Moq;
 using Newtonsoft.Json;
-using OtYaBatka.Shared;
-using OtYaBatka.Shared.Services;
-using OtYaBatka.TelegramBot;
+using face_finder.Shared;
+using face_finder.Shared.Services;
+using face_finder.TelegramBot;
 using SixLabors.ImageSharp;
 using Telegram.Bot.Types;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace OtYaBatka.IntegrationTests.Services
+namespace face_finder.IntegrationTests.Services
 {
     public class RecognitionServiceTests
     {
@@ -36,7 +36,7 @@ namespace OtYaBatka.IntegrationTests.Services
         [Fact()]
         public async Task ProcessImagesAsyncTest()
         {
-            const string imagePath = "E:\\OtYaBatka\\test7.jpg";
+            const string imagePath = "E:\\face_finder\\test7.jpg";
             var image = Image.Load(imagePath, out var format);
 
             var result = await _recognitionService.ProcessImageAsync(Extensions.ToBase64String(image, format).RotateAndRecodeImage());
@@ -221,7 +221,7 @@ namespace OtYaBatka.IntegrationTests.Services
             var collectionWasCreated = await _recognitionService.CreateCollectionAsync(collectionId);
             Assert.True(collectionWasCreated);
 
-            const string bucketName = "otyabatka-passport-base-collection";
+            const string bucketName = "face_finder-passport-base-collection";
             var result = await _fileStorage.GetFileInfos(bucketName);
 
             var faceCount = 0;

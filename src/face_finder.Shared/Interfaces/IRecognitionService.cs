@@ -1,8 +1,8 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
-using OtYaBatka.Shared.Models;
+using face_finder.Shared.Models;
 
-namespace OtYaBatka.Shared.Interfaces
+namespace face_finder.Shared.Interfaces
 {
     public interface IRecognitionService
     {

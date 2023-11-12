@@ -17,6 +17,6 @@
     <PackageReference Include="Telegram.Bot" Version="16.0.2" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OtYaBatka.Shared\OtYaBatka.Shared.csproj" />
+    <ProjectReference Include="..\face_finder.Shared\face_finder.Shared.csproj" />
   </ItemGroup>
 </Project>

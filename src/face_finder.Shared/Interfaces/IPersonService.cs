@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace OtYaBatka.Shared.Interfaces
+namespace face_finder.Shared.Interfaces
 {
     public interface IPersonService
     {

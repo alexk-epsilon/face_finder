@@ -4,10 +4,10 @@ using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
-using OtYaBatka.Shared.Interfaces;
-using OtYaBatka.Shared.Models;
+using face_finder.Shared.Interfaces;
+using face_finder.Shared.Models;
 
-namespace OtYaBatka.Shared.Services
+namespace face_finder.Shared.Services
 {
     public class PersonService : IPersonService
     {

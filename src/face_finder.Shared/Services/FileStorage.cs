@@ -9,9 +9,9 @@ using Amazon.S3;
 using Amazon.S3.Model;
 using Amazon.S3.Transfer;
 using Microsoft.Extensions.Logging;
-using OtYaBatka.Shared.Interfaces;
+using face_finder.Shared.Interfaces;
 
-namespace OtYaBatka.Shared.Services
+namespace face_finder.Shared.Services
 {
     public class FileStorage : IFileStorage, IDisposable
     {

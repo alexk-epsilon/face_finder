@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace OtYaBatka.WebApi.Models
+namespace face_finder.WebApi.Models
 {
     public class RecognitionRequest
     {

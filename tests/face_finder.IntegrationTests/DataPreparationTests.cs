@@ -9,12 +9,12 @@ using System.Text.RegularExpressions;
 using System.Text.Unicode;
 using CsvHelper;
 using Microsoft.VisualBasic.FileIO;
-using OtYaBatka.Shared;
-using OtYaBatka.Shared.Models;
+using face_finder.Shared;
+using face_finder.Shared.Models;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace OtYaBatka.IntegrationTests
+namespace face_finder.IntegrationTests
 {
     public class DataPreparationTests
     {
@@ -370,7 +370,7 @@ namespace OtYaBatka.IntegrationTests
 
         private IEnumerable<PersonFromBase> GetCsvContent()
         {
-            using var reader = new StreamReader("E:\\OtYaBatka\\111.csv");
+            using var reader = new StreamReader("E:\\face_finder\\111.csv");
             using var csv = new CsvReader(reader, CultureInfo.InvariantCulture);
             var records = new List<PersonFromBase>();
             while (csv.Read())

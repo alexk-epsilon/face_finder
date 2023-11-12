@@ -1,6 +1,6 @@
-﻿using OtYaBatka.Shared.Models;
+﻿using face_finder.Shared.Models;
 
-namespace OtYaBatka.WebApi.Models
+namespace face_finder.WebApi.Models
 {
     public class SubjectDto
     {

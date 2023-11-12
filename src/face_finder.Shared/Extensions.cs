@@ -4,7 +4,7 @@ using System.IO;
 using System.Text.Encodings.Web;
 using System.Text.Json;
 using System.Text.Unicode;
-using OtYaBatka.Shared.Models;
+using face_finder.Shared.Models;
 using SixLabors.Fonts;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Drawing.Processing;
@@ -13,7 +13,7 @@ using SixLabors.ImageSharp.Formats.Jpeg;
 using SixLabors.ImageSharp.PixelFormats;
 using SixLabors.ImageSharp.Processing;
 
-namespace OtYaBatka.Shared
+namespace face_finder.Shared
 {
     public static class Extensions
     {
@@ -154,7 +154,7 @@ namespace OtYaBatka.Shared
                 i => i.Crop(cropArea));
 
             clone.Save(outStream, new JpegEncoder());
-            //clone.Save($"E:\\OtYaBatka\\{Guid.NewGuid()}.jpg", new JpegEncoder());
+            //clone.Save($"E:\\face_finder\\{Guid.NewGuid()}.jpg", new JpegEncoder());
 
             return outStream;
         }
