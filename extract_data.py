@@ -19,7 +19,7 @@ cur.execute(select_query)
 tuples = cur.fetchall()
 df = pd.DataFrame(tuples, columns=fields)
 
-base_dir = "/mnt/f/projects/pokemongo_aws/police_db"
+base_dir = "/mnt/f/projects/pokemongo_aws/celeb_db"
 not_decodable = 0
 lock = threading.Lock()
 

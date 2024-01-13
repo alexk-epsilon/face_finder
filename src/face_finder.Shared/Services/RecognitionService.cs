@@ -26,7 +26,7 @@ namespace face_finder.Shared.Services
         private readonly AmazonRekognitionClient _client;
 
         private readonly List<string> _collectionIds = new List<string>
-            {"BlackBookBelarusCollection", "PassportCollection","police-db"};
+            {"BlackBookBelarusCollection", "PassportCollection","celeb-db"};
 
         public RecognitionService(ILogger<RecognitionService> logger)
         {

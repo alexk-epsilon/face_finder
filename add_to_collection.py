@@ -10,7 +10,7 @@ def add_faces_to_collection(bucket_name, collection_id):
     session = boto3.Session(profile_name='default')
     client = session.client('rekognition')
     s3=boto3.resource('s3')
-    bucket = s3.Bucket(name="police-db")
+    bucket = s3.Bucket(name="celeb-db")
 
     #list dirs in collection
     bad_noindex = 0

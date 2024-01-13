@@ -11,7 +11,7 @@ namespace face_finder.Shared.Services
 {
     public class PersonService : IPersonService
     {
-        private const string BucketName = "police-db";
+        private const string BucketName = "celeb-db";
 
         private readonly ILogger<PersonService> _logger;
         private readonly IFileStorage _fileStorage;
