@@ -1,7 +1,7 @@
 face_finder Server Side
 ======================
 
-[face_finder Server Side](https://github.com/alexk-epsilon/face_finder) is the server side project of the system for recognizing criminals of the Lukashenko regime.
+[face_finder Server Side](https://github.com/alexk-epsilon/face_finder) is the server side project of the face recognition system 
 
 ## Table of content
 
